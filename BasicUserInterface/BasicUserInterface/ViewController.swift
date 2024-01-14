@@ -9,10 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var blueView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        view.backgroundColor = .purple
+        
+        /*view.backgroundColor = .purple
         let myView = UIView(frame: CGRect(x: 50, y: 50, width: 100, height: 200))
         view.addSubview(myView)
         myView.backgroundColor = .red
@@ -52,6 +53,7 @@ class ViewController: UIViewController {
         myLabel.textColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
         myLabel.backgroundColor = .black
         myLabel.textAlignment = .center
+        */
     }
 
 
